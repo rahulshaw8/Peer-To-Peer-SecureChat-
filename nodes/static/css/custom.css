@@ -1,1 +1,44 @@
+#chatbox{
+}
 
+#metadata{
+}
+
+[class*="col-"]{
+    line-height:12px;
+}
+
+body{
+    padding-bottom:5px;
+}
+
+p {
+    line-height:  1.3em;
+}
+.message{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+
+}
+.ownMessage {
+    text-align:right;
+    padding:5px;
+    width: fit-content;
+    background-color:lightgreen
+}
+
+.extMessage {
+    text-align:left;
+    background-color:lightblue
+}
+
+
+.messagesList{
+    max-height: 400px;
+    list-style: none;
+    padding:0px;
+}
+
+.peersList{
+    max-height:400px;
+}
